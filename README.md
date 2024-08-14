@@ -65,7 +65,7 @@ Before you start, ensure you have the following installed:
 2. Open your web browser and navigate to:
 
     ```
-    http://localhost:3000
+http://localhost:5173/
     ```
 
     You should see the React app running.
