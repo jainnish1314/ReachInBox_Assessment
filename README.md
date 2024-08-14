@@ -1,40 +1,80 @@
-# Reachinbox Email Management System
+# Vite React App
 
-## Project Summary
+This is a React application bootstrapped with Vite. Vite provides a fast development environment and an optimized build process for modern web projects.
 
-Reachinbox is an advanced web application designed to enhance email interactions and management. It boasts a user-centric design with functionalities that streamline the process of managing and responding to email inquiries.
+## Table of Contents
 
-## Key Features
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the App Locally](#running-the-app-locally)
+- [Build and Deployment](#build-and-deployment)
+- [Folder Structure](#folder-structure)
+- [License](#license)
 
-- **Dynamic Sidebar**: Facilitates easy navigation across the application's different sections.
-- **Interactive TopBar**: Displays the current workspace and allows users to switch between light and dark themes.
-- **Email Interaction Center**: Main interface for managing email communications and viewing detailed email threads.
-- **Detail Viewer**: Offers insights into lead interactions and related email activities.
-- **Empty State View**: Shows when no emails are present.
-- **Email Composer**: Enables composing and dispatching email responses directly within the application.
-- **Confirmation Dialog**: Ensures user confirmation before email deletion.
-- **Theme Customization**: Allows users to toggle between themes to suit their preference.
+## Prerequisites
 
-## Installation Guide
+Before you start, ensure you have the following installed:
 
-### Clone the Project
+- [Node.js](https://nodejs.org/) (version 14.x or higher)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (for managing packages)
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone <repository-url>
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd <project-directory>
+    ```
+
+3. Install the project dependencies:
+
+    Using npm:
+
+    ```bash
+    npm install
+    ```
+
+    Or using Yarn:
+
+    ```bash
+    yarn install
+    ```
+
+## Running the App Locally
+
+1. Start the development server:
+
+    Using npm:
+
+    ```bash
+    npm run dev
+    ```
+
+    Or using Yarn:
+
+    ```bash
+    yarn dev
+    ```
+
+2. Open your web browser and navigate to:
+
+    ```
+    http://localhost:3000
+    ```
+
+    You should see the React app running.
+
+## Build and Deployment
+
+To create a production build of the application, run:
+
+Using npm:
 
 ```bash
-git clone https://github.com/kirtangohil07/ReachinBox.git
-```
-Change Directory to Project Folder
-
-```bash
-cd ReachinBox
-```
-Install Required Packages
-
-```bash
-npm install
-```
-Launch Development Server
-```bash
-
-npm run dev
-```
-Visit http://localhost:3000 to view the application.
+npm run build
